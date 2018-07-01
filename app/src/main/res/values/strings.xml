@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Project1SSA</string>
+    <string name="dog_training">Dog Training</string>
+    <string name="with">with</string>
+    <string name="stella">Stella</string>
+    <string name="services">Stella\'s Services</string>
+    <string name="service1">Training classes from beginner to advance</string>
+    <string name="service2">Behavioral Sutitutions:mild reactivity, potty training and leashe manners</string>
+    <string name="service3">Puppy socialization, bite inhibition and resource guarding</string>
+    <string name="service4">Clicker training, private lessons and bilingual classes are available</string>
+    <string name="contact_her">Contact her!</string>
+    <string name="address">3902 Wilson Boulevard, Arlington, VA 22203</string>
+    <string name="website">https://stores.petco.com/va/arlington/pet-supplies-arlington-va-5819.html</string>
+    <string name="phone">(703)243-6334</string>
+</resources>

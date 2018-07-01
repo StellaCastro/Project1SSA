@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_bones2"
+    tools:context="com.example.android.project1ssa.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dt"
+            android:text="@string/dog_training"
+            android:layout_marginTop="@dimen/margin10"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/ts25"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/with"
+
+            android:text="@string/with"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/dt"
+            android:textSize="@dimen/ts25"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stella"
+            android:text="@string/stella"
+            android:background="@color/white"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/with"
+            android:textSize="@dimen/ts60"
+            android:fontFamily="cursive"
+            android:textColor="@color/pink"/>
+        <ImageView
+            android:layout_width="@dimen/w100"
+            android:layout_height="@dimen/h150"
+            android:layout_margin="@dimen/margin10"
+            android:layout_toLeftOf="@id/stella"
+            android:layout_below="@id/stella"
+            android:src="@drawable/dt_stellacrop"
+            />
+        <ImageView
+            android:layout_width="@dimen/w100"
+            android:layout_height="@dimen/h150"
+            android:layout_margin="@dimen/margin10"
+            android:layout_toRightOf="@id/stella"
+            android:layout_below="@id/stella"
+            android:src="@drawable/stella_dt2"
+            />
+        <ImageView
+            android:layout_width="@dimen/w100"
+            android:layout_height="@dimen/h150"
+            android:layout_margin="@dimen/margin10"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stella"
+            android:src="@drawable/stella_dt3crop"
+            />
+
+    </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin20"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/services"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="@color/pink"
+                android:textSize="@dimen/ts20"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="@dimen/w25"
+                    android:layout_height="@dimen/h25"
+                    android:layout_margin="@dimen/margin5"
+                    android:src="@drawable/paw_icon2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/service1"
+                    android:autoLink="map"
+                    android:textColor="@color/black"
+                    android:layout_margin="@dimen/margin5"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="@dimen/w25"
+                    android:layout_height="@dimen/h25"
+                    android:layout_margin="@dimen/margin5"
+                    android:src="@drawable/paw_icon2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/service2"
+                    android:autoLink="map"
+                    android:textColor="@color/black"
+                    android:layout_margin="@dimen/margin5"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="@dimen/w25"
+                    android:layout_height="@dimen/h25"
+                    android:layout_margin="@dimen/margin5"
+                    android:src="@drawable/paw_icon2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/service3"
+                    android:autoLink="map"
+                    android:textColor="@color/black"
+                    android:layout_margin="@dimen/margin5"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="@dimen/w25"
+                    android:layout_height="@dimen/h25"
+                    android:layout_margin="@dimen/margin5"
+                    android:src="@drawable/paw_icon2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/service4"
+                    android:autoLink="map"
+                    android:textColor="@color/black"
+                    android:layout_margin="@dimen/margin5"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin40"
+            android:layout_marginLeft="@dimen/margin20"
+            android:layout_marginRight="@dimen/margin20"
+            android:layout_marginTop="@dimen/margin20"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contact_her"
+                android:layout_gravity="center"
+                android:textColor="@color/pink"
+                android:textSize="@dimen/ts20"
+                android:textStyle="bold"
+                />
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="@dimen/w25"
+                    android:layout_height="@dimen/h25"
+                    android:layout_margin="@dimen/margin5"
+                    android:src="@drawable/globe_icon"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/website"
+                    android:autoLink="web"
+                    android:textColor="@color/black"
+                    android:layout_margin="@dimen/margin5"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="@dimen/w25"
+                    android:layout_height="@dimen/h25"
+                    android:layout_margin="@dimen/margin5"
+                    android:src="@drawable/phone_icon3"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/phone"
+                    android:autoLink="phone"
+                    android:textColor="@color/black"
+                    android:layout_margin="@dimen/margin5"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="@dimen/w25"
+                    android:layout_height="@dimen/h25"
+                    android:layout_margin="@dimen/margin5"
+                    android:src="@drawable/map_icon2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/address"
+                    android:autoLink="all"
+                    android:textColorLink="@color/pink"
+                    android:textColor="@color/black"
+                    android:layout_margin="@dimen/margin5"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
